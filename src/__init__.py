@@ -71,7 +71,7 @@ class CustomActor(CBPiActor):
 
 
 def setup(cbpi):
-    #cbpi.plugin.register("MyCustomActor", CustomActor)
+    cbpi.plugin.register("MyCustomActor", CustomActor)
     #cbpi.plugin.register("MyCustomSensor", CustomSensor)
     #cbpi.plugin.register("MyustomWebExtension", CustomWebExtension)
     pass
