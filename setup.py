@@ -11,5 +11,5 @@ setup(name='cbpi4-Template-Plugin',
         # If any package contains *.txt or *.rst files, include them:
       '': ['*.txt', '*.rst', '*.yaml'],
       'cbpi4-Template-Plugin': ['*','*.txt', '*.rst', '*.yaml']},
-      packages=['cbpi4-Template-Plugin'],
+      packages=['src'],
      )
